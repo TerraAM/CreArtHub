@@ -1,0 +1,281 @@
+﻿@model IEnumerable<CreArtHub.Shared.Dto.PostDto>
+@{
+	Layout = "_Layout";
+	//ViewData["Title"] = "Index";
+}
+
+<section class="hero-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="video-player">
+					<img src="images/welcomeImage.png" class="img-fluid rounded" alt="">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="block">
+					<h2>Мы помогаем авторам развиваться</h2>
+					<p>Мы верим в силу слова, и поэтому предоставляем уникальные инструменты, ресурсы и платформу для ваших творческих идей. У нас вы найдете сообщество, готовое поддержать вас на каждом этапе вашего творческого пути. </p>
+					<ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
+						<li class="list-inline-item">
+							<a asp-controller="Account" asp-action="Register" target="_blank" class="btn btn-main">Зарегестрироваться</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--
+Start About Section
+==================================== -->
+<section class="about-2 section bg-gray" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-5">
+				<h2>Наша площадка содержит разнообразный авторский контент</h2>
+			</div>
+			<div class="col-12 col-md-7">
+				<p>
+					Мы гордимся разнообразием и уникальностью творческих голосов нашего сообщества. Наша площадка с радостью приветствует авторов, создающих контент в самых разных жанрах и направлениях.
+					Будь это тексты, фотографии, видео, музыка, или искусство в разных его проявлениях - у нас есть место для вашего таланта.
+				</p>
+				<p>
+					Мы ценим креативность и индивидуальность каждого автора и стремимся создать для вас идеальное окружение, где вы можете делиться своими идеями и найти свою аудиторию.
+					Наша площадка - это место, где многообразие контента и авторских голосов процветает.
+				</p>
+			</div>
+
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+<section class="services section-xs" id="services">
+	<div class="container">
+		<div class="row">
+			<!-- Single Service Item -->
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="service-block color-bg text-center">
+					<div class="service-icon text-center">
+						<i class="tf-ion-ios-musical-note"></i>
+					</div>
+					<h3>Музыка</h3>
+					<p>Погрузитесь в мир музыкальных эмоций, наслаждайтесь уникальными мелодиями и поддерживайте творчество авторов. Наша площадка - это гармония звуков для всех.</p>
+				</div>
+			</div>
+			<!-- End Single Service Item -->
+			<!-- Single Service Item -->
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="tf-ion-ios-photos-outline"></i>
+					</div>
+					<h3>Изображения</h3>
+					<p>У нас есть как платный, так и бесплатный контент, призванный вдохновлять и поражать воображение.</p>
+				</div>
+			</div>
+			<!-- End Single Service Item -->
+			<!-- Single Service Item -->
+			<div class="col-md-4 col-sm-6 col-xs-12 mx-auto">
+				<div class="service-block color-bg text-center">
+					<div class="service-icon text-center">
+						<i class="tf-ion-ios-videocam-outline"></i>
+					</div>
+					<h3>Медиа &amp; Реклама</h3>
+					<p>Поддерживайте креатив и вдохновляйтесь нашими работами, чтобы сделать вашу медийную и рекламную компанию неповторимой.</p>
+				</div>
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+<section class="about section-sm" id="about">
+	<div class="container">
+		<div class="row mb-50 justify-content-center">
+			<div class="col-md-5 col-sm-12 text-center offset-md-1">
+				<img src="images/about/about-1.jpg" class="img-fluid rounded shadow" alt="">
+			</div>
+			<div class="col-md-5 col-sm-12">
+				<div class="content">
+					<h2>Творчество в нашей <br> крови</h2>
+					<p>
+						У нас в сердце и душе бьется страсть к творчеству. Наша платформа - место, где каждая капля вдохновения становится произведением искусства.
+						Мы гордимся поддерживать разнообразие авторов, предоставляя платный и бесплатный контент для творческих душ.
+				</div>
+
+				</p>
+			</div>
+		</div> 		<!-- End row -->
+		<div class="row mt-50 justify-content-center">
+			<div class="col-12 col-md-5 offset-md-1 col-md-5 col-sm-12">
+				<div class="content">
+					<h2>Мы думаем <br> нестандартно</h2>
+					<p>
+						Мы - место, где размышление выходит за рамки обыденного. На нашей платформе мы приветствуем и поощряем авторов, которые видят мир по-своему и готовы поделиться своей уникальной перспективой.
+						Здесь вы найдете как платный, так и бесплатный контент, который вдохновляет и заставляет думать нестандартно.
+				</div>
+
+				</p>
+			</div>
+			<div class="col-12 col-md-5 col-sm-12 text-center">
+				<img src="images/about/about-2.jpg" class="img-fluid rounded shadow" alt="">
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+<!--
+Start About Section
+==================================== -->
+<!-- Start Portfolio Section
+=========================================== -->
+<section class="portfolio section bg-gray" id="portfolio">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<div class="title text-center">
+					<h4>СВЕЖИЕ РАБОТЫ</h4>
+					<h2>ВИТРИНА РАБОТ</h2>
+					<span class="border"></span>
+					<p>Откройте для себя разнообразие талантов, поддержите авторов и насладитесь уникальными творческими работами. Витрина работ - ваше окно в мир творчества.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<!-- /section title -->
+				<div class="portfolio-filter">
+					<button type="button" data-filter="all">Все</button>
+					<button type="button" data-filter=".photography">Фотографии</button>
+					<button type="button" data-filter=".ios">IOS приложения</button>
+					<button type="button" data-filter=".development">Разработка</button>
+					<button type="button" data-filter=".design">Дизайн</button>
+				</div>
+			</div>
+		</div> <!-- /end col-lg-12 -->
+		<div class="row portfolio-items-wrapper">
+			<div class="col-6 col-md-4 padding-0 mix design">
+				<div class="portfolio-block">
+					<img class="img-fluid" src="images/portfolio/portfolio-1.jpg" alt="">
+					<div class="caption">
+						<a class="search-icon" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+							<i class="tf-ion-ios-search-strong"></i>
+						</a>
+						<h4><a href="">AirBnB Postcard</a></h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-6 col-md-4 padding-0 mix design ios">
+				<div class="portfolio-block ">
+					<img class="img-fluid" src="images/portfolio/portfolio-2.jpg" alt="">
+					<div class="caption">
+						<a class="search-icon" href="images/portfolio/portfolio-2.jpg" data-lightbox="image-1">
+							<i class="tf-ion-ios-search-strong"></i>
+						</a>
+						<h4><a href="">AirBnB Postcard</a></h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-6 col-md-4 padding-0 mix photography development">
+				<div class="portfolio-block">
+					<img class="img-fluid" src="images/portfolio/portfolio-3.jpg" alt="">
+					<div class="caption">
+						<a class="search-icon" href="images/portfolio/portfolio-3.jpg" data-lightbox="image-1">
+							<i class="tf-ion-ios-search-strong"></i>
+						</a>
+						<h4><a href="">AirBnB Postcard</a></h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-6 col-md-4 padding-0 mix photography ios">
+				<div class="portfolio-block">
+					<img class="img-fluid" src="images/portfolio/portfolio-4.jpg" alt="">
+					<div class="caption">
+						<a class="search-icon" href="images/portfolio/portfolio-4.jpg" data-lightbox="image-1">
+							<i class="tf-ion-ios-search-strong"></i>
+						</a>
+						<h4><a href="">AirBnB Postcard</a></h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-6 col-md-4 padding-0 mix design">
+				<div class="portfolio-block">
+					<img class="img-fluid" src="images/portfolio/portfolio-5.jpg" alt="">
+					<div class="caption">
+						<a class="search-icon" href="images/portfolio/portfolio-5.jpg" data-lightbox="image-1">
+							<i class="tf-ion-ios-search-strong"></i>
+						</a>
+						<h4><a href="">AirBnB Postcard</a></h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-6 col-md-4 padding-0 development mix design">
+				<div class="portfolio-block">
+					<img class="img-fluid" src="images/portfolio/portfolio-1.jpg" alt="">
+					<div class="caption">
+						<a class="search-icon" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+							<i class="tf-ion-ios-search-strong"></i>
+						</a>
+						<h4><a href="">Photography Website</a></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end row -->
+</section>   <!-- End section -->
+<!-- Start Our Team
+		=========================================== -->
+<!-- Start Pricing section
+		=========================================== -->
+<!-- Start Testimonial
+=========================================== -->
+<!--
+Start Blog Section
+=========================================== -->
+<section class="blog section" id="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="title text-center">
+					<h4>Наши истории</h4>
+					<h2>БЛОГ</h2>
+					<span class="border"></span>
+					<p>Добро пожаловать в наш мир размышлений и идей! </p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			
+			@foreach( var el in Model)
+			{
+				<article class="col-12 col-md-4">
+					<div class="post-item">
+						<div class="post-thumb">
+							@if(el.ImgPath != string.Empty)
+							{  
+								<img class="img-fluid shadow rounded" src=@el.ImgPath alt="Generic placeholder image">
+							} 
+							else
+							{
+								<img class="img-fluid shadow rounded" src="images/blog/post-1.jpg" alt="Generic placeholder image">
+							}
+
+						</div>
+						<div class="post-title">
+							<h3 class="mt-0"><a asp-controller="Post" asp-action="Details" asp-route-Id="@el.Id">@el.Title</a></h3>
+						</div>
+						<div class="post-meta">
+							<span>Автор&nbsp;</span> <a href="" class="">@el.Author.Name</a>
+						</div>
+						<div class="post-content">
+							<p>@el.Content</p>
+						</div>
+						<a class="btn btn-main" asp-controller="Post" asp-action="Details" asp-route-Id="@el.Id">Открыть</a>
+					</div>
+				</article>
+			}
+			
+		</div> <!-- end row -->
+	</div> <!-- end container -->
+</section> <!-- end section -->
+

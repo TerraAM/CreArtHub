@@ -1,0 +1,68 @@
+﻿@model CreArtHub.Domain.Entity.Comment
+
+@{
+    ViewData["Title"] = "Изменение";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@await Html.PartialAsync("_GetSubMenu",new List<string> { "Комментарии", ViewData["Title"].ToString() })
+
+<section class="blog section bg-gray" id="contact">
+    <div class="container">
+        <h1>Изменение</h1>
+
+        <h4>Комментарий</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" name="url" value=@ViewBag.Referrer />
+                    @if (User.IsInRole("admin") || User.IsInRole("moderator"))
+                    {
+                        <div class="form-group">
+                            <label asp-for="PostId" class="control-label"></label>
+                            <select asp-for="PostId" class="form-control" asp-items="ViewBag.PostId"></select>
+                            <span asp-validation-for="PostId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="AuthorId" class="control-label"></label>
+                            <select asp-for="AuthorId" class="form-control" asp-items="ViewBag.AuthorId"></select>
+                            <span asp-validation-for="AuthorId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CreatedAt" class="control-label"></label>
+                            <input asp-for="CreatedAt" class="form-control" />
+                            <span asp-validation-for="CreatedAt" class="text-danger"></span>
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" asp-for="IsEdit" /> @Html.DisplayNameFor(model => model.IsEdit)
+                            </label>
+                        </div>
+                    }
+                    <div class="form-group">
+                        <label asp-for="Content" class="control-label"></label>
+                        <textarea asp-for="Content" class="form-control" cols="30" rows="4"></textarea>
+                        <span asp-validation-for="Content" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Сохранить" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="cf-submit">
+            @if (!string.IsNullOrEmpty(@ViewBag.Referrer))
+            {
+                <a href="@ViewBag.Referrer" id="contact-submit" class="btn btn-main">Вернуться обратно</a>
+            }
+            else
+            {
+                <a asp-action="Index" id="contact-submit" class="btn btn-main">Вернуться к спику</a>
+            }
+        </div>
+    </div>
+</section>
+

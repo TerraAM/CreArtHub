@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CreArtHub.Domain/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CreArtHub.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CreArtHub.Domain.dll": {}
+        }
+      },
+      "CreArtHub.Shared/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CreArtHub.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CreArtHub.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CreArtHub.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CreArtHub.Domain/CreArtHub.Domain.csproj",
+      "msbuildProject": "../CreArtHub.Domain/CreArtHub.Domain.csproj"
+    },
+    "CreArtHub.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CreArtHub.Shared/CreArtHub.Shared.csproj",
+      "msbuildProject": "../CreArtHub.Shared/CreArtHub.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CreArtHub.Domain >= 1.0.0",
+      "CreArtHub.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\yarpg\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\123\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj",
+      "projectName": "CreArtHub.App",
+      "projectPath": "G:\\123\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj",
+      "packagesPath": "C:\\Users\\yarpg\\.nuget\\packages\\",
+      "outputPath": "G:\\123\\CreArtHub\\CreArtHub.App\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\yarpg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "G:\\123\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj": {
+              "projectPath": "G:\\123\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj"
+            },
+            "G:\\123\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj": {
+              "projectPath": "G:\\123\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

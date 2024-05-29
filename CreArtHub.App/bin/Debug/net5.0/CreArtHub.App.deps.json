@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CreArtHub.App/1.0.0": {
+        "dependencies": {
+          "CreArtHub.Domain": "1.0.0",
+          "CreArtHub.Shared": "1.0.0"
+        },
+        "runtime": {
+          "CreArtHub.App.dll": {}
+        }
+      },
+      "CreArtHub.Domain/1.0.0": {
+        "runtime": {
+          "CreArtHub.Domain.dll": {}
+        }
+      },
+      "CreArtHub.Shared/1.0.0": {
+        "runtime": {
+          "CreArtHub.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CreArtHub.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreArtHub.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreArtHub.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

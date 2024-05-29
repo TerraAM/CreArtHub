@@ -1,0 +1,27 @@
+﻿@model CreArtHub.Domain.Entity.Role
+
+@{
+    ViewData["Title"] = "Подробности";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@await Html.PartialAsync("_GetSubMenu",new List<string> { "Роли", ViewData["Title"].ToString() })
+
+<section class="contact-us section bg-gray" id="contact">
+    <div class="container">
+        <h1>Подробности</h1>
+
+        <div>
+            <h4>Роль</h4>
+            <hr />
+            <dl class="row">
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+            </dl>
+        </div>
+        @await Html.PartialAsync("_patternDetailsButtom",Model.Id)
+    </div>
+</section>

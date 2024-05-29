@@ -1,0 +1,138 @@
+﻿@model CreArtHub.Shared.Model.ProfileModel
+
+@{
+	ViewData["Title"] = "Профиль";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@await Html.PartialAsync("_GetSubMenu",new List<string> { ViewData["Title"].ToString() })
+
+<section class="section bg-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 text-center">
+				@if (!string.IsNullOrEmpty(Model.User.AvatarPath))
+				{
+					<img class="img-fluid shadow rounded" src="@Model.User.AvatarPath" alt="" />
+				}
+				else
+				{
+					<img class="img-fluid shadow rounded" src="/images/avatar.png" alt="" />
+				}
+			</div>
+			<div class="col-md-6 align-self-center">
+				<h2>Поговорим немного обо мне? @Model.User.Name</h2>
+				@if (!string.IsNullOrEmpty(Model.User.About))
+				{
+					<p>
+						@Model.User.About
+					</p>
+				} else
+				{
+					<p>
+						Вы – талантливый писатель, стремящийся к созданию увлекательных и качественных произведений. 
+						Ваша страсть к слову и искусству повествования вдохновляет вас на создание уникальных и захватывающих историй. 
+						Вы стремитесь к совершенству и готовы постоянно развиваться в своем искусстве. 
+						Ниже представлены 10 пунктов, которые могут помочь вам стать еще более успешным и достичь новых вершин в мире литературы.
+					</p>
+				}
+				<div class="row">
+					@if (!string.IsNullOrEmpty(Model.User.Skills))
+					{
+						foreach (string skill in Model.User.Skills.Split(','))
+						{
+							<div class="col-md-6">
+								<ul class="color-gray">
+									<li><i class="tf-ion-android-checkbox-outline"></i> @skill</li>
+								</ul>
+							</div>
+						}
+					} else
+					{
+						<div class="col-md-6">
+							<ul class="color-gray">
+								<li><i class="tf-ion-android-checkbox-outline"></i> Исследую различные жанры</li>
+								<li><i class="tf-ion-android-checkbox-outline"></i> Читаю много</li>
+								<li><i class="tf-ion-android-checkbox-outline"></i> Пишу регулярно</li>
+								<li><i class="tf-ion-android-checkbox-outline"></i> Принимаю обратную связь</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<ul class="color-gray">
+								<li><i class="tf-ion-android-checkbox-outline"></i> Постоянно совершенствуйте свой стиль</li>
+								<li><i class="tf-ion-android-checkbox-outline"></i> Завел дневник писателя</li>
+								<li><i class="tf-ion-android-checkbox-outline"></i> Изучаю структуру произведений</li>
+								<li><i class="tf-ion-android-checkbox-outline"></i> Поддерживаю равновесие между творчеством и отдыхом</li>
+							</ul>
+						</div>
+					}
+				</div>
+				<br>
+				@if (User.Identity.Name == Model.User.Email || User.IsInRole("admin"))
+				{
+					<a class="btn btn-main d-flex justify-content-center align-items-center" asp-controller="User" asp-action="Edit" asp-route-id=@Model.User.Id>Изменить</a>
+				}
+				<p></p>
+				<a class="btn btn-main d-flex justify-content-center align-items-center" asp-action="Portfolio" asp-route-id=@Model.User.Id>Портфолио</a>&nbsp;
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Start Our Team
+		=========================================== -->
+<!-- Start Pricing section
+		=========================================== -->
+@if (Model.Subscriptions.Any())
+{
+	<section class="pricing-table  section" id="pricing">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="title text-center">
+						<h4>Простое ценообразование</h4>
+						<h2>Услуги</h2>
+						<span class="border"></span>
+						<p>С нами вы можете быть уверены в профессиональном и своевременном выполнении задач.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				@foreach(var sub in Model.Subscriptions)
+				{
+					<!-- single pricing table -->
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="pricing-item">
+
+							<!-- plan name & value -->
+							<div class="price-title bg-pricing">
+								<h3>@sub.Name</h3>
+								<strong class="value">@sub.Price руб.</strong>
+								<p>@sub.Description</p>
+							</div>
+							<!-- /plan name & value -->
+							<!-- plan description -->
+							<ul>
+								<li>Доступ к закрытому контенту</li>
+								<li>Продолжительость: @sub.Delay дней</li>
+								@*<li>10 Email Account</li>
+								<li>Script Installer</li>
+								<li>1 GB Storage</li>
+								<li>10 GB Bandwidth</li>
+								<li>24/7 Tech Support</li>*@
+							</ul>
+							<!-- /plan description -->
+							<!-- signup button -->
+							<a class="btn btn-main" href="#">Подписаться</a>
+							<!-- /signup button -->
+
+						</div>
+					</div>
+				}
+				<!-- end single pricing table -->
+
+
+			</div>       <!-- End row -->
+		</div>   	<!-- End container -->
+	</section>   <!-- End section -->
+}

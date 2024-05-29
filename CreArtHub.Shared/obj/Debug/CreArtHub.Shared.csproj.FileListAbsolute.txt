@@ -1,0 +1,12 @@
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Shared\bin\Debug\CreArtHub.Shared.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Shared\bin\Debug\CreArtHub.Shared.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Shared\obj\Debug\CreArtHub.Shared.csproj.AssemblyReference.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Shared\obj\Debug\CreArtHub.Shared.csproj.CoreCompileInputs.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Shared\obj\Debug\CreArtHub.Shared.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Shared\obj\Debug\CreArtHub.Shared.pdb
+G:\CreArtHub\CreArtHub.Shared\bin\Debug\CreArtHub.Shared.dll
+G:\CreArtHub\CreArtHub.Shared\bin\Debug\CreArtHub.Shared.pdb
+G:\CreArtHub\CreArtHub.Shared\obj\Debug\CreArtHub.Shared.csproj.AssemblyReference.cache
+G:\CreArtHub\CreArtHub.Shared\obj\Debug\CreArtHub.Shared.csproj.CoreCompileInputs.cache
+G:\CreArtHub\CreArtHub.Shared\obj\Debug\CreArtHub.Shared.dll
+G:\CreArtHub\CreArtHub.Shared\obj\Debug\CreArtHub.Shared.pdb

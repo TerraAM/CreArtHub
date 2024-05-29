@@ -1,0 +1,34 @@
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.csproj.AssemblyReference.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.GeneratedMSBuildEditorConfig.editorconfig
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.AssemblyInfoInputs.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.AssemblyInfo.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.csproj.CoreCompileInputs.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.App.deps.json
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.App.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.App.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.Domain.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.Shared.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.Domain.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.Shared.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.csproj.CopyComplete
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\obj\Debug\net5.0\refint\CreArtHub.App.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.App\obj\Debug\net5.0\ref\CreArtHub.App.dll
+G:\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.App.deps.json
+G:\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.App.dll
+G:\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.App.pdb
+G:\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.Domain.dll
+G:\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.Shared.dll
+G:\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.Domain.pdb
+G:\CreArtHub\CreArtHub.App\bin\Debug\net5.0\CreArtHub.Shared.pdb
+G:\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.csproj.AssemblyReference.cache
+G:\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.GeneratedMSBuildEditorConfig.editorconfig
+G:\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.AssemblyInfoInputs.cache
+G:\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.AssemblyInfo.cs
+G:\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.csproj.CoreCompileInputs.cache
+G:\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.csproj.CopyComplete
+G:\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.dll
+G:\CreArtHub\CreArtHub.App\obj\Debug\net5.0\refint\CreArtHub.App.dll
+G:\CreArtHub\CreArtHub.App\obj\Debug\net5.0\CreArtHub.App.pdb
+G:\CreArtHub\CreArtHub.App\obj\Debug\net5.0\ref\CreArtHub.App.dll

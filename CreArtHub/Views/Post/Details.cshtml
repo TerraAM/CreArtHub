@@ -1,0 +1,220 @@
+﻿@model CreArtHub.Shared.Model.PostModel
+
+@{
+    ViewData["Title"] = "Подробности";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+@await Html.PartialAsync("_GetSubMenu",new List<string> { "Посты", ViewData["Title"].ToString(), Model.Post.Title })
+
+<section class="blog section" id="blog">
+    <div class="container">
+        @*@if (User.IsInRole("admin"))
+        {
+            <h1>Подробности</h1>
+
+            <div>
+                <h4>Пост</h4>
+                <hr />
+                <dl class="row">
+                    <dt class = "col-sm-2">
+                        @Html.DisplayNameFor(model => model.Post.Title)
+                    </dt>
+                    <dd class = "col-sm-10">
+                        @Html.DisplayFor(model => model.Post.Title)
+                    </dd>
+                    <dt class = "col-sm-2">
+                        @Html.DisplayNameFor(model => model.Post.Content)
+                    </dt>
+                    <dd class = "col-sm-10">
+                        @Html.DisplayFor(model => model.Post.Content)
+                    </dd>
+                    <dt class = "col-sm-2">
+                        @Html.DisplayNameFor(model => model.Post.CreatedAt)
+                    </dt>
+                    <dd class = "col-sm-10">
+                        @Html.DisplayFor(model => model.Post.CreatedAt)
+                    </dd>
+                    <dt class = "col-sm-2">
+                        @Html.DisplayNameFor(model => model.Post.BySub)
+                    </dt>
+                    <dd class = "col-sm-10">
+                        @Html.DisplayFor(model => model.Post.BySub)
+                    </dd>
+                    <dt class = "col-sm-2">
+                        @Html.DisplayNameFor(model => model.Post.Author)
+                    </dt>
+                    <dd class = "col-sm-10">
+                        @Html.DisplayFor(model => model.Post.Author.Name)
+                    </dd>
+                </dl>
+            </div>
+            @await Html.PartialAsync("_patternDetailsButtom",Model.Post.Id)
+        }else
+        {*@
+            <div class="row">
+                <!-- single blog post -->
+                <article class="col-12">
+                    <div class="post-item">
+                        <div class="post-thumb d-flex justify-content-center align-items-center">
+                            <img class="img-fluid shadow rounded" src="/images/blog/post-1.jpg" alt="Generic placeholder image">
+                        </div>
+                        <div class="post-title d-flex justify-content-center align-items-center">
+                            <h3 class="mt-0"><a href="">@Model.Post.Title</a></h3>
+                        </div>
+                        <div class="post-meta d-flex justify-content-center align-items-center">
+                            <span>Автор&nbsp;</span> <a asp-action="Profile" asp-route-id=@Model.Post.AuthorId>@Model.Post.Author.Name</a>
+                        </div>
+                        <div class="post-content">
+                            <p>@Model.Post.Content</p>
+                        </div>
+                        <br>
+                        @if (Model.Post.Author.Email == User.Identity.Name || User.IsInRole("admin"))
+                        {
+                            <div class="col-auto mt-auto text-right">
+                                <p class="mb-0"><span class="text-primary"><a asp-action="Edit" asp-route-id="@Model.Post.Id">Изменить</a></span></p>
+                            </div>
+                            
+                            <p></p>
+                        }
+                        <a class="btn btn-main d-flex justify-content-center align-items-center" asp-action="index">Обратно к новостям</a>
+                    </div>
+                </article>
+                <!-- /single blog post -->
+            </div> <!-- end row -->
+
+            <div class="row">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Post.Category.Name</h5>
+                    <p class="card-text">Тэги... какие они... прекрасные...</p>
+                    <!-- Tag display -->
+                    <div class="tags">
+                        @{
+                            string[] tagList = Model.Post.Tags.Split("#").ToArray();
+                            foreach (string tag in tagList)
+                            {
+                                <span class="badge badge-mute border tag">@tag</span>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+
+            @if(Model.Files?.Any() == true)
+            {
+                <div class="container mt-5">
+                    <h2>Прикрепленные файлы к посту</h2>
+                    <ul class="list-group mt-3">
+                        @foreach(var file in Model.Files)
+                        {
+                            string [] splitedname = file.FileName.Split(".");
+
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a asp-action="Download" asp-route-fileName=@file.FileName>@splitedname[0]</a>
+                                <span>
+                                    <span class="badge badge-primary badge-pill">@splitedname[1] </span>
+                                    @if (User.IsInRole("admin") || User.IsInRole("moderator") || User.Identity.Name == Model.Post.Author.Name)
+                                    {
+                                        <a href="@Url.Action("DeleteFile", "Post", new { fileName = file.FileName, postId = file.PostId })" class="text-danger">Удалить</a>
+                                    }
+                                </span>
+                            </li>
+                        }
+                    
+                    </ul>
+                </div>
+            }
+
+            @if (User.IsInRole("admin") || User.IsInRole("moderator") || User.Identity.Name == Model.Post.Author.Name)
+            {
+                <br>
+                <form asp-action="UploadFiles" enctype="multipart/form-data" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" name="postId" value=@Model.Post.Id />
+                    <div class="form-group">
+                        <label for="Title" class="control-label">Выберите файлы для загрузки</label>
+                        <input type="file" name="files" multiple />
+                    </div>
+                    <div class="form-group" id="cf-submit">
+                        <input type="submit" value="Загрузить" id="contact-submit" class="btn btn-main" />
+                    </div>
+                </form>
+            }
+
+
+            <section class="comments-section">
+                <div class="comment-list">
+
+                    <div class="contact-form col-12 col-md-8 offset-md-2">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <h3 class="d-flex justify-content-center align-items-center">Оставь комментарий</h3>
+                            <form id="contact-form" asp-action="AddComment" class="form-contact comment_form" id="commentForm">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea name="CommentContent" class="form-control w-100" type="Text" id="comment" cols="30" rows="4"
+                                                  placeholder="Ваш комментарий" required></textarea>
+                                        </div>
+                                    </div>
+                                    <input name="CommentAuthorEmail" value="@User.Identity.Name" hidden class="form-control" />
+                                    <input name="CommentPostId" value="@Model.Post.Id" hidden class="form-control" />
+                                </div>
+                                <div id="cf-submit">
+                                    <input type="submit" id="contact-submit" class="btn btn-transparent" value="Отправить">
+                                </div>
+                            </form>
+                        }
+                    </div>
+                        <br>
+                        @if (Model.Comments?.Any() == true) 
+                        {
+                            <h4>Комментариев @Model.Comments.Count()</h4>
+                        } else
+                        {
+                            <h4>Комментариев нет :(</h4>
+                        }
+                    @if(Model.Comments.Any())
+                    {
+                        @foreach(var comment in Model.Comments)
+                        {
+                            <ul class="comment-wrap">
+                                <li class="comment row">
+                                    <div class="client-thumb col-auto">
+                                        <div class="author-avatar">
+                                            <a asp-controller="Home" asp-action="Profile" asp-route-id=@comment.AuthorId></a>
+                                            @if (!string.IsNullOrEmpty(comment.Author.AvatarPath))
+                                            {
+                                                <img src=@comment.Author.AvatarPath class="rounded-circle" alt="">
+                                            }
+                                            else
+                                            {
+                                                <img src="/images/avatar.png" class="rounded-circle" alt="">
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <p>@comment.Author.Name @comment.CreatedAt</p>
+                                        <span>@comment.Content</span>
+                                    </div>
+                                    <div class="col-auto mt-auto text-right">
+                                        @if (comment.IsEdit)
+                                        {
+                                            <p class="mb-0"><em>Изменено</em></p>
+                                        }
+                                        @if (User.Identity.Name == comment.Author.Email || User.IsInRole("admin") || User.IsInRole("moderator"))
+                                        {
+                                            <p class="mb-0"><span class="text-primary"><a asp-controller="Comment" asp-action="Edit" asp-route-id=@comment.Id asp-route-url=@Url.Action(null,null,new{id = Model.Post.Id})>Изменить</a> | <a asp-controller="Comment" asp-action="Delete" asp-route-id=@comment.Id asp-route-url=@Url.Action(null,null,new{id = Model.Post.Id})>Удалить</a></span></p>  
+                                        }
+					                </div>
+                                </li>
+                            </ul>
+                        }
+                    }
+
+                </div>
+            </section>
+        @*}*@
+    </div>
+</section>

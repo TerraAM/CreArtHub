@@ -1,0 +1,457 @@
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\appsettings.Development.json
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\appsettings.json
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.exe
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.deps.json
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.runtimeconfig.json
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.runtimeconfig.dev.json
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.Views.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.Views.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.csproj.AssemblyReference.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.GeneratedMSBuildEditorConfig.editorconfig
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.AssemblyInfoInputs.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.AssemblyInfo.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.csproj.CoreCompileInputs.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.MvcApplicationPartsAssemblyInfo.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.RazorAssemblyInfo.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.RazorAssemblyInfo.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\scopedcss\bundle\CreArtHub.Client.styles.css
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\CreArtHub.Client.StaticWebAssets.Manifest.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\CreArtHub.Client.StaticWebAssets.Pack.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\msbuild.CreArtHub.Client.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\msbuild.build.CreArtHub.Client.props
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.CreArtHub.Client.props
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.CreArtHub.Client.props
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.TagHelpers.input.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.TagHelpers.output.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.RazorCoreGenerate.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.RazorTargetAssemblyInfo.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.RazorTargetAssemblyInfo.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.Views.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\refint\CreArtHub.Client.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.genruntimeconfig.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\ref\CreArtHub.Client.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.csproj.CopyComplete
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Humanizer.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Newtonsoft.Json.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Composition.Convention.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Composition.Hosting.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Composition.Runtime.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Composition.TypedParts.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Error.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Index.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Privacy.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Adapter.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.App.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Domain.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Shared.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Adapter.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.App.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Domain.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Shared.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Runtime.Caching.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Role\Create.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Role\Delete.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Role\Details.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Role\Edit.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Shared\_GetSubMenu.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Shared\_patternDetailsButtom.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Post\Create.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Post\Delete.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Post\Details.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Post\Edit.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Post\Index.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Home\Profile.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Comment\Create.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Comment\Delete.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Comment\Details.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Comment\Edit.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Comment\Index.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\FeedBack\Create.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\FeedBack\Delete.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\FeedBack\Details.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\FeedBack\Edit.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\FeedBack\Index.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Category\Details.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\File\Create.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\File\Delete.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\File\Details.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\File\Edit.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\File\Index.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\User\Create.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\User\Delete.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\User\Details.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\User\Edit.cshtml.g.cs
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\appsettings.Development.json
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\appsettings.json
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.exe
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.deps.json
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.runtimeconfig.json
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.runtimeconfig.dev.json
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.pdb
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.Views.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Client.Views.pdb
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Humanizer.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\Newtonsoft.Json.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Composition.Convention.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Composition.Hosting.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Composition.Runtime.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Composition.TypedParts.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Runtime.Caching.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Adapter.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.App.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Domain.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Shared.dll
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Adapter.pdb
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.App.pdb
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Domain.pdb
+G:\CreArtHub\CreArtHub\bin\Debug\net5.0\CreArtHub.Shared.pdb
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.csproj.AssemblyReference.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.GeneratedMSBuildEditorConfig.editorconfig
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.AssemblyInfoInputs.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.AssemblyInfo.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.csproj.CoreCompileInputs.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.MvcApplicationPartsAssemblyInfo.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.RazorAssemblyInfo.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.RazorAssemblyInfo.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\scopedcss\bundle\CreArtHub.Client.styles.css
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\CreArtHub.Client.StaticWebAssets.Manifest.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\CreArtHub.Client.StaticWebAssets.Pack.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\msbuild.CreArtHub.Client.Microsoft.AspNetCore.StaticWebAssets.props
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\msbuild.build.CreArtHub.Client.props
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.CreArtHub.Client.props
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.CreArtHub.Client.props
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.TagHelpers.input.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.TagHelpers.output.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.RazorCoreGenerate.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Category\Details.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Comment\Create.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Comment\Delete.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Comment\Details.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Comment\Edit.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Comment\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Error.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\FeedBack\Create.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\FeedBack\Delete.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\FeedBack\Details.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\FeedBack\Edit.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\FeedBack\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\File\Create.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\File\Delete.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\File\Details.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\File\Edit.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\File\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Home\Profile.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Post\Create.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Post\Delete.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Post\Details.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Post\Edit.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Post\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Privacy.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Role\Create.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Role\Delete.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Role\Details.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Role\Edit.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Shared\_GetSubMenu.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Shared\_patternDetailsButtom.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\User\Create.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\User\Delete.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\User\Details.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\User\Edit.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.RazorTargetAssemblyInfo.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.RazorTargetAssemblyInfo.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.Views.pdb
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.csproj.CopyComplete
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.dll
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\refint\CreArtHub.Client.dll
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.pdb
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\CreArtHub.Client.genruntimeconfig.cache
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\ref\CreArtHub.Client.dll
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Home\Portfolio.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscriber\Create.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscriber\Delete.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscriber\Details.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscriber\Edit.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscriber\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Post\My.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscription\Create.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscription\Delete.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscription\Details.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscription\Edit.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscription\Index.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscription\My.cshtml.g.cs

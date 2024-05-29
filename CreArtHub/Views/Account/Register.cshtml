@@ -1,0 +1,69 @@
+﻿@model CreArtHub.Shared.Model.RegisterModel
+
+@{
+	ViewData["Title"] = "Регистрация";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@await Html.PartialAsync("_GetSubMenu",new List<string> { ViewData["Title"].ToString() })
+
+<!-- Srart Contact Us
+		=========================================== -->
+<section class="contact-us section bg-gray" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="title text-center">
+					<h4>Это начало... Начало, великого!</h4>
+					<h2>Пора вступить в наши ряды</h2>
+					<span class="border"></span>
+					<p></p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<!-- Contact Details -->
+			<!-- / End Contact Details -->
+			<!-- Contact Form -->
+			<div class="contact-form col-12 col-md-8 offset-md-2">
+				<form asp-action="Register" asp-controller="Account" asp-anti-forgery="true">
+					<div class="validation" asp-validation-summary="ModelOnly"></div>
+
+					<div class="form-group">
+						<input type="text" asp-for="Name" placeholder="Ваш псевдоним" class="form-control" name="name" id="name" required>
+						<span asp-validation-for="Name" class="error"></span>
+					</div>
+
+					<div class="form-group">
+						<input type="email" asp-for="Email" placeholder="Ваш Email" class="form-control" name="email" id="email" required>
+						<span asp-validation-for="Email" id="mail-fail" class="error"></span>
+					</div>
+
+					<div class="form-group">
+						<input type="password" asp-for="Password" placeholder="Ваш пароль" class="form-control" name="password" id="password" required>
+						<span asp-validation-for="Password" class="error"></span>
+					</div>
+
+					<div class="form-group">
+						<input type="password" asp-for="ConfirmPassword" placeholder="Повторите пароль" class="form-control" name="repassword" id="repassword" required>
+						<span asp-validation-for="ConfirmPassword" class="error"></span>
+					</div>
+
+					<div id="mail-success" class="success">
+						Thank you. The Mailman is on His Way :)
+					</div>
+
+					<div id="mail-fail" class="error">
+						Sorry, don't know what happened. Try later :(
+					</div>
+
+					<div id="cf-submit">
+						<input type="submit" id="contact-submit" class="btn btn-transparent" value="Зарегестрироваться">
+					</div>
+
+				</form>
+			</div>
+			<!-- ./End Contact Form -->
+		</div> <!-- end row -->
+	</div> <!-- end container -->
+</section> <!-- end section -->

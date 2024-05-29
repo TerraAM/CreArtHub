@@ -1,0 +1,67 @@
+﻿@model CreArtHub.Domain.Entity.Comment
+
+@{
+    ViewData["Title"] = "Удаление";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@await Html.PartialAsync("_GetSubMenu",new List<string> { "Комментарии", ViewData["Title"].ToString() })
+
+<section class="contact-us section bg-gray" id="contact">
+    <div class="container">
+        <h1>Удаление</h1>
+
+        <h3>Вы уверены, что желаете это удалить?</h3>
+        <div>
+            <h4>Комментарий</h4>
+            <hr />
+            <dl class="row">
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Content)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Content)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.CreatedAt)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.CreatedAt)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.IsEdit)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.IsEdit)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Post)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Post.Title)
+                </dd class>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Author)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Author.Name)
+                </dd class>
+            </dl>
+    
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" name="url" value=@ViewBag.Referrer />
+                <input type="submit" value="Удалить" class="btn btn-danger" />
+                <p></p>
+                <div id="cf-submit">
+                    @if (!string.IsNullOrEmpty(@ViewBag.Referrer))
+                    {
+                        <a href="@ViewBag.Referrer" id="contact-submit" class="btn btn-main">Вернуться обратно</a>
+                    } else
+                    {
+                        <a asp-action="Index" id="contact-submit" class="btn btn-main">Вернуться к спику</a>
+                    }
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

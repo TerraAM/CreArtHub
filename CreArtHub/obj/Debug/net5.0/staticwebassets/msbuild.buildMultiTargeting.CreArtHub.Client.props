@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CreArtHub.Client.props" />
+</Project>

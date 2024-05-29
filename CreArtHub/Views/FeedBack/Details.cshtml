@@ -1,0 +1,51 @@
+﻿@model CreArtHub.Domain.Entity.FeedBack
+
+@{
+    ViewData["Title"] = "Подробности";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@await Html.PartialAsync("_GetSubMenu",new List<string> { "Отзывы", ViewData["Title"].ToString() })
+
+<section class="contact-us section bg-gray" id="contact">
+    <div class="container">
+        <h1>Подробности</h1>
+
+        <div>
+            <h4>Отзыв</h4>
+            <hr />
+            <dl class="row">
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.UserName)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.UserName)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.UserEmail)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.UserEmail)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Title)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Title)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Context)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Context)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.isReaded)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.isReaded)
+                </dd>
+            </dl>
+        </div>
+        @await Html.PartialAsync("_patternDetailsButtom",Model.Id)
+    </div>
+</section>

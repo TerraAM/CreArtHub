@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreArtHub.Client", "CreArtHub\CreArtHub.Client.csproj", "{68F78C0B-B707-4466-BE3F-4E7C444A9F7E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FB3E7244-A36F-458F-AF61-3B6A6803F5EE} = {FB3E7244-A36F-458F-AF61-3B6A6803F5EE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreArtHub.Domain", "CreArtHub.Domain\CreArtHub.Domain.csproj", "{0C278B5B-2930-496A-BD53-732F1FD2AEE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreArtHub.Shared", "CreArtHub.Shared\CreArtHub.Shared.csproj", "{FB3E7244-A36F-458F-AF61-3B6A6803F5EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreArtHub.Adapter", "Adapter\CreArtHub.Adapter.csproj", "{D382A90F-3F81-4303-A25C-2C9C39264C4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreArtHub.App", "CreArtHub.App\CreArtHub.App.csproj", "{2F0B4954-DB7E-4523-AD35-CDFAF5B3E622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68F78C0B-B707-4466-BE3F-4E7C444A9F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F78C0B-B707-4466-BE3F-4E7C444A9F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F78C0B-B707-4466-BE3F-4E7C444A9F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F78C0B-B707-4466-BE3F-4E7C444A9F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C278B5B-2930-496A-BD53-732F1FD2AEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C278B5B-2930-496A-BD53-732F1FD2AEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C278B5B-2930-496A-BD53-732F1FD2AEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C278B5B-2930-496A-BD53-732F1FD2AEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB3E7244-A36F-458F-AF61-3B6A6803F5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3E7244-A36F-458F-AF61-3B6A6803F5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3E7244-A36F-458F-AF61-3B6A6803F5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3E7244-A36F-458F-AF61-3B6A6803F5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D382A90F-3F81-4303-A25C-2C9C39264C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D382A90F-3F81-4303-A25C-2C9C39264C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D382A90F-3F81-4303-A25C-2C9C39264C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D382A90F-3F81-4303-A25C-2C9C39264C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0B4954-DB7E-4523-AD35-CDFAF5B3E622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0B4954-DB7E-4523-AD35-CDFAF5B3E622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0B4954-DB7E-4523-AD35-CDFAF5B3E622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0B4954-DB7E-4523-AD35-CDFAF5B3E622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA42342D-CDC6-456E-B13F-E8D540DAE48F}
+	EndGlobalSection
+EndGlobal

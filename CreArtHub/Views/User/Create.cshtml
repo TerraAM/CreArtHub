@@ -1,0 +1,70 @@
+﻿@model CreArtHub.Domain.Entity.User
+
+@{
+    ViewData["Title"] = "Создание";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@await Html.PartialAsync("_GetSubMenu",new List<string> { "Пользователи", ViewData["Title"].ToString() })
+
+<section class="contact-us section bg-gray" id="contact">
+    <div class="container">
+
+        <h1>Создание</h1>
+
+        <h4>Пользователь</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="Create" enctype="multipart/form-data" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="RoleId" class="control-label"></label>
+                        <select asp-for="RoleId" class ="form-control" asp-items="ViewBag.RoleId"></select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="AvatarPath" class="control-label"></label>
+                        <input asp-for="AvatarPath" class="form-control" />
+                        <span asp-validation-for="AvatarPath" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="About" class="control-label"></label>
+                        <textarea asp-for="About" class="form-control"></textarea>
+                        <span asp-validation-for="About" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Skills" class="control-label"></label>
+                        <textarea asp-for="Skills" class="form-control"></textarea>
+                        <span asp-validation-for="Skills" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Title" class="control-label">Выберите файлы для загрузки</label>
+                        <input type="file" name="Avatar" accept=".jpg, .jpeg, .png" />
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Создать" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="cf-submit">
+            <a asp-action="Index" id="contact-submit" class="btn btn-main">Обратно к списку</a>
+        </div>
+    </div>
+</section>
+

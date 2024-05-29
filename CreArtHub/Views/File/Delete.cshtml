@@ -1,0 +1,48 @@
+﻿@model CreArtHub.Domain.Entity.File
+
+@{
+    ViewData["Title"] = "Удаление";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@await Html.PartialAsync("_GetSubMenu",new List<string> { "Файлы постов", ViewData["Title"].ToString() })
+
+<section class="contact-us section bg-gray" id="contact">
+    <div class="container">
+        <h1>Удаление</h1>
+
+        <h3>Вы уверены, что желаете это удалить?</h3>
+        <div>
+            <h4>File</h4>
+            <hr />
+            <dl class="row">
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.FileName)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.FileName)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.FilePath)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.FilePath)
+                </dd>
+                <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.Post)
+                </dt>
+                <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.Post.Id)
+                </dd class>
+            </dl>
+    
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <input type="submit" value="Удалить" class="btn btn-danger" />
+                <p></p>
+                <div id="cf-submit">
+                    <a asp-action="Index" id="contact-submit" class="btn btn-main">Обратно к списку</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,79 @@
+﻿@model IEnumerable<CreArtHub.Shared.Dto.FileDto>
+@{
+    ViewData["Title"] = "Список";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@await Html.PartialAsync("_GetSubMenu",new List<string> { "Портфолио", ViewData["Title"].ToString() })
+
+<section class="portfolio section" id="portfolio">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<div class="title text-center">
+					<h4>ДОСТУПНЫЕ РАБОТЫ</h4>
+					<h2>РАБОТЫ</h2>
+					<span class="border"></span>
+					<p>В данном разделе представлены работы автора, как для платной, так и для бесплатной основы.</p>
+				</div>
+			</div>
+		</div>
+		@if (Model.Any())
+		{
+			<div class="row">
+				<div class="col-lg-12">
+					<!-- /section title -->
+					<div class="portfolio-filter">
+						<button type="button" data-filter="all">Все</button>
+						@{
+							var Categories = Model
+								.Select(x => x.Post.Category.Name) 
+								.ToList();
+							HashSet<string> uniqueContinents = new HashSet<string>(Categories);
+							foreach (var category in uniqueContinents)
+							{
+								if (category != null)
+								{
+									<button type="button" data-filter=".@category">@category</button>
+								}
+							}
+						}
+					</div>
+				</div>
+			</div> <!-- /end col-lg-12 -->
+			<div class="row portfolio-items-wrapper">
+				@foreach(var el in Model)
+				{
+					<div class="col-6 col-md-4 padding-0 mix @el.Post.Category.Name">
+						<div class="portfolio-block">
+							@if (!string.IsNullOrEmpty(el.Post.ImgPath))
+							{
+								<img class="img-fluid" src=@el.Post.ImgPath alt="">
+							}
+							else
+							{
+								<img class="img-fluid" src="/images/portfolio/portfolio-1.jpg" alt="">
+							}
+							<div class="caption">
+								@if (!string.IsNullOrEmpty(el.Post.ImgPath))
+								{
+									<a class="search-icon" href=@el.Post.ImgPath data-lightbox="image-1">
+										<i class="tf-ion-ios-search-strong"></i>
+									</a>
+								}
+								else
+								{
+									<a class="search-icon" href="/images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+										<i class="tf-ion-ios-search-strong"></i>
+									</a>
+								}
+								<h4><a asp-controller="Post" asp-action="Details" asp-route-id=@el.PostId>@el.FileName</a></h4>
+							</div>
+						</div>
+					</div>
+				}
+			</div>
+		}
+	</div> <!-- end row -->
+</section>
+

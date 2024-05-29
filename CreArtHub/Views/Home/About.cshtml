@@ -1,0 +1,118 @@
+﻿@{
+	ViewData["Title"] = "О нас";
+	Layout = "_Layout";
+}
+
+@await Html.PartialAsync("_GetSubMenu",new List<string> { ViewData["Title"].ToString() })
+
+<!--
+Start About Section
+==================================== -->
+<section class="about-2 section bg-gray" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-5">
+				<h2>Наша площадка содержит разнообразный авторский контент</h2>
+			</div>
+			<div class="col-12 col-md-7">
+				<p>
+					Мы гордимся разнообразием и уникальностью творческих голосов нашего сообщества. Наша площадка с радостью приветствует авторов, создающих контент в самых разных жанрах и направлениях.
+					Будь это тексты, фотографии, видео, музыка, или искусство в разных его проявлениях - у нас есть место для вашего таланта.
+				</p>
+				<p>
+					Мы ценим креативность и индивидуальность каждого автора и стремимся создать для вас идеальное окружение, где вы можете делиться своими идеями и найти свою аудиторию.
+					Наша площадка - это место, где многообразие контента и авторских голосов процветает.
+				</p>
+			</div>
+
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+<section class="about-mission-vision section">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="title">
+					<h4>Еще немного</h4>
+					<h2>О нас</h2>
+					<span class="border"></span>
+					<p>Наша цель - создать вдохновляющее и образовательное пространство, где каждый может наслаждаться качественными материалами, созданными талантливыми авторами.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="commonTab">
+					<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#philosophy" role="tab" aria-controls="philosophy" aria-selected="true">Наша философия</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#mission" role="tab" aria-controls="mission" aria-selected="false">Задача</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="contact-tab" data-toggle="tab" href="#vision" role="tab" aria-controls="vision" aria-selected="false">Взгляд</a>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="philosophy" role="tabpanel" aria-labelledby="home-tab">
+							<div class="row">
+								<div class="col-md-6 align-self-center">
+									<h2>Гармония творчества и обмена идеями<br> </h2>
+									<p>Философия нашего портала заключается в предоставлении уникальной возможности авторам выразить свои идеи, мысли и творчество через тексты, получая при этом признание и возможность заработать.</p>
+									<p>Мы верим в силу слова и в то, что каждый автор заслуживает быть услышанным и вознагражденным за свой труд.</p>
+								</div>
+								<div class="col-md-6">
+									<img class="img-fluid rounded shadow " src="/images/company/company-image.jpg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="profile-tab">
+							<div class="row">
+								<div class="col-md-6 align-self-center">
+									<h2>Наша задача</h2>
+									<p>Предоставить авторам и читателям платформу для обмена идеями, опытом и творческим потенциалом.</p>
+									<p>Мы стремимся создать пространство, где каждый может выразить себя, получить признание и поддержку, а также расширить свои знания и горизонты.</p>
+								</div>
+								<div class="col-md-6">
+									<img class="img-fluid rounded shadow mt-20" src="/images/company/company-image-2.jpg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="contact-tab">
+							<div class="row">
+								<div class="col-md-6 align-self-center">
+									<h2>Наш взгляд на мир</h2>
+									<p>это взгляд, основанный на уважении, открытости и принятии разнообразия.</p>
+									<p>Мы считаем, что каждый имеет право на свое мнение и свой путь, и что важно уважать и ценить различия между людьми.</p>
+								</div>
+								<div class="col-md-6">
+									<img class="img-fluid rounded shadow mt-20" src="/images/company/company-image-3.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Start Our Team
+		=========================================== -->
+<!--
+Start Call To Action
+==================================== -->
+<section class="call-to-action section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>Давайте создадим что-нибудь вместе</h2>
+				<p>Присоединяйтесь к нашему сообществу авторов и читателей, <br>давайте создавать что-то новое и интересное вместе!</p>
+				<a href="" class="btn btn-main">Зарегестрироваться</a>
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>

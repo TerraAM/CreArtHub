@@ -1,0 +1,12 @@
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Domain\bin\Debug\CreArtHub.Domain.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Domain\bin\Debug\CreArtHub.Domain.pdb
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Domain\obj\Debug\CreArtHub.Domain.csproj.AssemblyReference.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Domain\obj\Debug\CreArtHub.Domain.csproj.CoreCompileInputs.cache
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Domain\obj\Debug\CreArtHub.Domain.dll
+G:\Учеба\4 курс (Вышка)\ВКР\CreArtHub\CreArtHub.Domain\obj\Debug\CreArtHub.Domain.pdb
+G:\CreArtHub\CreArtHub.Domain\bin\Debug\CreArtHub.Domain.dll
+G:\CreArtHub\CreArtHub.Domain\bin\Debug\CreArtHub.Domain.pdb
+G:\CreArtHub\CreArtHub.Domain\obj\Debug\CreArtHub.Domain.csproj.AssemblyReference.cache
+G:\CreArtHub\CreArtHub.Domain\obj\Debug\CreArtHub.Domain.csproj.CoreCompileInputs.cache
+G:\CreArtHub\CreArtHub.Domain\obj\Debug\CreArtHub.Domain.dll
+G:\CreArtHub\CreArtHub.Domain\obj\Debug\CreArtHub.Domain.pdb

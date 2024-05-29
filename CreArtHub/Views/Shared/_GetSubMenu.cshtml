@@ -1,0 +1,20 @@
+﻿@model IEnumerable<string>
+
+<section class="single-page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>@Model.LastOrDefault()</h2>
+				<nav aria-label="breadcrumb mx-auto" role="navigation">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Главная</a></li>
+						@foreach( string el in Model)
+						{
+							<li class="breadcrumb-item active" aria-current="page">@el</li>
+						}
+					</ol>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
