@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CreArtHub.Adapter
-build_property.ProjectDir = G:\123\CreArtHub\Adapter\
+build_property.ProjectDir = G:\CreArtHub\Adapter\

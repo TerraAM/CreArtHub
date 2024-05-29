@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\123\\CreArtHub\\Adapter\\CreArtHub.Adapter.csproj": {}
+    "G:\\CreArtHub\\Adapter\\CreArtHub.Adapter.csproj": {}
   },
   "projects": {
-    "G:\\123\\CreArtHub\\Adapter\\CreArtHub.Adapter.csproj": {
+    "G:\\CreArtHub\\Adapter\\CreArtHub.Adapter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\123\\CreArtHub\\Adapter\\CreArtHub.Adapter.csproj",
+        "projectUniqueName": "G:\\CreArtHub\\Adapter\\CreArtHub.Adapter.csproj",
         "projectName": "CreArtHub.Adapter",
-        "projectPath": "G:\\123\\CreArtHub\\Adapter\\CreArtHub.Adapter.csproj",
+        "projectPath": "G:\\CreArtHub\\Adapter\\CreArtHub.Adapter.csproj",
         "packagesPath": "C:\\Users\\yarpg\\.nuget\\packages\\",
-        "outputPath": "G:\\123\\CreArtHub\\Adapter\\obj\\",
+        "outputPath": "G:\\CreArtHub\\Adapter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,11 +31,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\123\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj": {
-                "projectPath": "G:\\123\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj"
+              "G:\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj": {
+                "projectPath": "G:\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj"
               },
-              "G:\\123\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj": {
-                "projectPath": "G:\\123\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj"
+              "G:\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj": {
+                "projectPath": "G:\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "G:\\123\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj": {
+    "G:\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\123\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj",
+        "projectUniqueName": "G:\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj",
         "projectName": "CreArtHub.App",
-        "projectPath": "G:\\123\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj",
+        "projectPath": "G:\\CreArtHub\\CreArtHub.App\\CreArtHub.App.csproj",
         "packagesPath": "C:\\Users\\yarpg\\.nuget\\packages\\",
-        "outputPath": "G:\\123\\CreArtHub\\CreArtHub.App\\obj\\",
+        "outputPath": "G:\\CreArtHub\\CreArtHub.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -102,11 +102,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\123\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj": {
-                "projectPath": "G:\\123\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj"
+              "G:\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj": {
+                "projectPath": "G:\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj"
               },
-              "G:\\123\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj": {
-                "projectPath": "G:\\123\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj"
+              "G:\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj": {
+                "projectPath": "G:\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj"
               }
             }
           }
@@ -140,11 +140,11 @@
         }
       }
     },
-    "G:\\123\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj": {
+    "G:\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj": {
       "restore": {
-        "projectUniqueName": "G:\\123\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj",
+        "projectUniqueName": "G:\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj",
         "projectName": "CreArtHub.Domain",
-        "projectPath": "G:\\123\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj",
+        "projectPath": "G:\\CreArtHub\\CreArtHub.Domain\\CreArtHub.Domain.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -155,11 +155,11 @@
         "net472": {}
       }
     },
-    "G:\\123\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj": {
+    "G:\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj": {
       "restore": {
-        "projectUniqueName": "G:\\123\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj",
+        "projectUniqueName": "G:\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj",
         "projectName": "CreArtHub.Shared",
-        "projectPath": "G:\\123\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj",
+        "projectPath": "G:\\CreArtHub\\CreArtHub.Shared\\CreArtHub.Shared.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}

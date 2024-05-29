@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5l73XugoOJh+dNoGiygLgfC7IiZ7zciK1Qwci63vn02pRjRvKnGRxYBHFqmTR6JCUEYloE24yuSa7hEPfnawhg==",
+  "dgSpecHash": "VQ0kuNtW8cK/eCCiz6RdBDOKO1HDc91EMdxwKdeJRh0Ezxx2keNjqw6bDnwWynnlCErYT5RVgolGm/87I5N6FA==",
   "success": true,
-  "projectFilePath": "G:\\123\\CreArtHub\\CreArtHub\\CreArtHub.Client.csproj",
+  "projectFilePath": "G:\\CreArtHub\\CreArtHub\\CreArtHub.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yarpg\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\yarpg\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

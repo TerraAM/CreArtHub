@@ -455,3 +455,4 @@ G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscription\Details.cshtml.
 G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscription\Edit.cshtml.g.cs
 G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscription\Index.cshtml.g.cs
 G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscription\My.cshtml.g.cs
+G:\CreArtHub\CreArtHub\obj\Debug\net5.0\Razor\Views\Subscriber\My.cshtml.g.cs
