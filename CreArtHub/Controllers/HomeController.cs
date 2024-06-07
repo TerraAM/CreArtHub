@@ -111,20 +111,23 @@ namespace CreArtHub.Client.Controllers
 		public async Task<IActionResult> Profile(int? id)
 		{
             Response<UserDto> userResponse;
-            Response<IEnumerable<SubscriptionDto>> subscriptionResponse;
+            //Response<IEnumerable<SubscriptionDto>> subscriptionResponse;
             if (id == null)
             {
                 userResponse = await userInteractor.GetByEmail(User.Identity.Name);
-                subscriptionResponse = await subscriptionInteractor.GetAllByUserEmail(User.Identity.Name);
+                //subscriptionResponse = await subscriptionInteractor.GetAllByUserEmail(User.Identity.Name);
             } else {
                 userResponse = await userInteractor.GetById((int)id);
-                subscriptionResponse = await subscriptionInteractor.GetAllByUserId((int)id);
+                //subscriptionResponse = await subscriptionInteractor.GetAllByUserId((int)id);
             }
-            ProfileModel profile = new ProfileModel() 
+            ProfileModel profile = new ProfileModel()
             {
                 User = userResponse.Value,
-                Subscriptions = subscriptionResponse.Value
             };
+            //if (subscriptionResponse.Value.Any())
+            //{
+            //    profile.Subscriptions = subscriptionResponse.Value.ToList();
+            //}
 
 			return View(profile);
 		}

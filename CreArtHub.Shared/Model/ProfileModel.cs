@@ -10,6 +10,6 @@ namespace CreArtHub.Shared.Model
     public class ProfileModel
     {
         public UserDto User;
-        public IEnumerable<SubscriptionDto> Subscriptions;
+        public List<SubscriptionDto> Subscriptions = new List<SubscriptionDto>();
     }
 }

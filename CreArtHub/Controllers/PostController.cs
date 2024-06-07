@@ -46,14 +46,29 @@ namespace CreArtHub.Client.Controllers
         }
 
         // GET: Post
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
+            ViewData["CurrentFilter"] = searchString;
             Response<IEnumerable<PostDto>> response;
             if (User.IsInRole("admin"))
             {
-                response = await interactor.GetAll();
+                if (!String.IsNullOrEmpty(searchString))
+                {
+                    response = await interactor.GetAllBySearch(searchString);
+                }
+                else
+                { 
+                    response = await interactor.GetAll();
+                }
             } else {
-                response = await interactor.GetAllNoSub();
+                if (!String.IsNullOrEmpty(searchString))
+                {
+                    response = await interactor.GetAllBySearchNoSub(searchString);
+                }
+                else
+                {
+                    response = await interactor.GetAllNoSub();
+                }
             }
             return View(response.Value);
         }
@@ -113,10 +128,13 @@ namespace CreArtHub.Client.Controllers
                     post.AuthorId = user.Value.Id;
                     post.CreatedAt = DateTime.Now;
                 }
-                string output = new string(post.Tags
-                        .Where((c, i) => c != ' ' || (i > 0 && post.Tags[i - 1] == '#' && i < post.Tags.Length - 1 && post.Tags[i + 1] == '#'))
-                        .ToArray());
-                post.Tags = output;
+                if (string.IsNullOrEmpty(post.Tags))
+                { 
+                    string output = new string(post.Tags
+                            .Where((c, i) => c != ' ' || (i > 0 && post.Tags[i - 1] == '#' && i < post.Tags.Length - 1 && post.Tags[i + 1] == '#'))
+                            .ToArray());
+                    post.Tags = output;
+                }
                 _context.Add(post);
                 await _context.SaveChangesAsync();
 
@@ -184,16 +202,14 @@ namespace CreArtHub.Client.Controllers
             {
                 try
                 {
-                    if (!(User.IsInRole("admin") || User.IsInRole("moderator")))
+                    
+                    if (string.IsNullOrEmpty(post.Tags))
                     {
-                        var editedPost = await interactor.GetById(id);
-                        post.AuthorId = editedPost.Value.AuthorId;
-                        post.CreatedAt = editedPost.Value.CreatedAt;
+                        string output = new string(post.Tags
+                                .Where((c, i) => c != ' ' || (i > 0 && post.Tags[i - 1] == '#' && i < post.Tags.Length - 1 && post.Tags[i + 1] == '#'))
+                                .ToArray());
+                        post.Tags = output;
                     }
-                    string output = new string(post.Tags
-                        .Where((c, i) => c != ' ' || (i > 0 && post.Tags[i - 1] == '#' && i < post.Tags.Length - 1 && post.Tags[i + 1] == '#'))
-                        .ToArray());
-                    post.Tags = output;
                     await interactor.Update(post.ToDto());
                 }
                 catch (DbUpdateConcurrencyException)

@@ -19,6 +19,11 @@
                 <form asp-action="Edit">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <input type="hidden" asp-for="Id" />
+                    @if (!(User.IsInRole("admin") || User.IsInRole("moderator")))
+                    {
+                        <input type="hidden" asp-for="AuthorId"/>
+                        <input type="hidden" asp-for="CreatedAt" />
+                    }
                     @if (User.IsInRole("admin") || User.IsInRole("moderator"))
                     {
                         <div class="form-group">

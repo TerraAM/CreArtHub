@@ -159,6 +159,64 @@ namespace CreArtHub.App.Interactors
             }
         }
 
+        public async Task<Response<IEnumerable<PostDto>>> GetAllBySearch(string searchString)
+        {
+            try
+            {
+                var list = await repos.GetAllAsync();
+                if (list == null)
+                    return new Response<IEnumerable<PostDto>>()
+                    {
+                        IsSuccess = true,
+                        Value = null
+                    };
+                else
+                    return new Response<IEnumerable<PostDto>>()
+                    {
+                        IsSuccess = true,
+                        Value = list.Where(x => x.Title.Contains(searchString)).Select(e => e.ToDto())
+                    };
+            }
+            catch (Exception ex)
+            {
+                return new Response<IEnumerable<PostDto>>()
+                {
+                    IsSuccess = false,
+                    ErrorInfo = ex.Message,
+                    ErrorMessage = "Ошибка получения"
+                };
+            }
+        }
+
+        public async Task<Response<IEnumerable<PostDto>>> GetAllBySearchNoSub(string searchString)
+        {
+            try
+            {
+                var list = await repos.GetAllAsync();
+                if (list == null)
+                    return new Response<IEnumerable<PostDto>>()
+                    {
+                        IsSuccess = true,
+                        Value = null
+                    };
+                else
+                    return new Response<IEnumerable<PostDto>>()
+                    {
+                        IsSuccess = true,
+                        Value = list.Where(x => !x.BySub && x.Title.Contains(searchString)).Select(e => e.ToDto())
+                    };
+            }
+            catch (Exception ex)
+            {
+                return new Response<IEnumerable<PostDto>>()
+                {
+                    IsSuccess = false,
+                    ErrorInfo = ex.Message,
+                    ErrorMessage = "Ошибка получения"
+                };
+            }
+        }
+
         public async Task<Response<IEnumerable<PostDto>>> GetAllByAuthorEmail(string email)
         {
             try

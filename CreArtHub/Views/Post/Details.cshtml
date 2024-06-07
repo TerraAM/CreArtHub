@@ -113,7 +113,7 @@
                                 <a asp-action="Download" asp-route-fileName=@file.FileName>@splitedname[0]</a>
                                 <span>
                                     <span class="badge badge-primary badge-pill">@splitedname[1] </span>
-                                    @if (User.IsInRole("admin") || User.IsInRole("moderator") || User.Identity.Name == Model.Post.Author.Name)
+                                    @if (User.IsInRole("admin") || User.IsInRole("moderator") || User.Identity.Name == Model.Post.Author.Email)
                                     {
                                         <a href="@Url.Action("DeleteFile", "Post", new { fileName = file.FileName, postId = file.PostId })" class="text-danger">Удалить</a>
                                     }
@@ -125,7 +125,7 @@
                 </div>
             }
 
-            @if (User.IsInRole("admin") || User.IsInRole("moderator") || User.Identity.Name == Model.Post.Author.Name)
+            @if (User.IsInRole("admin") || User.IsInRole("moderator") || User.Identity.Name == Model.Post.Author.Email)
             {
                 <br>
                 <form asp-action="UploadFiles" enctype="multipart/form-data" method="post">
