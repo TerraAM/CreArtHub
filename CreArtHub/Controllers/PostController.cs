@@ -46,31 +46,34 @@ namespace CreArtHub.Client.Controllers
         }
 
         // GET: Post
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string author, string title)
         {
-            ViewData["CurrentFilter"] = searchString;
+            ViewData["CurrentAuthorFilter"] = author;
+            ViewData["CurrentTitleFilter"] = title;
+
             Response<IEnumerable<PostDto>> response;
             if (User.IsInRole("admin"))
             {
-                if (!String.IsNullOrEmpty(searchString))
+                if (!String.IsNullOrEmpty(author) || !String.IsNullOrEmpty(title))
                 {
-                    response = await interactor.GetAllBySearch(searchString);
-                }
-                else
-                { 
-                    response = await interactor.GetAll();
-                }
-            } else {
-                if (!String.IsNullOrEmpty(searchString))
-                {
-                    response = await interactor.GetAllBySearchNoSub(searchString);
+                    return View(interactor.GetAllBySearch(author, title).Result.Value);
                 }
                 else
                 {
-                    response = await interactor.GetAllNoSub();
+                    return View(interactor.GetAll().Result.Value);
+                }
+            } 
+            else 
+            {
+                if (!String.IsNullOrEmpty(author) || !String.IsNullOrEmpty(title))
+                {
+                    return View(interactor.GetAllBySearchNoSub(author, title).Result.Value);
+                }
+                else
+                {
+                    return View(interactor.GetAllNoSub().Result.Value);
                 }
             }
-            return View(response.Value);
         }
 
         // GET: Post/Details/5

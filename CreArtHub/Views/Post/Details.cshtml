@@ -63,7 +63,7 @@
                             <h3 class="mt-0"><a href="">@Model.Post.Title</a></h3>
                         </div>
                         <div class="post-meta d-flex justify-content-center align-items-center">
-                            <span>Автор&nbsp;</span> <a asp-action="Profile" asp-route-id=@Model.Post.AuthorId>@Model.Post.Author.Name</a>
+                            <span>Автор&nbsp;</span> <a asp-controller="Home" asp-action="Profile" asp-route-id=@Model.Post.AuthorId>@Model.Post.Author.Name</a>
                         </div>
                         <div class="post-content">
                             <p>@Model.Post.Content</p>

@@ -219,7 +219,34 @@ namespace CreArtHub.App.Interactors
                 };
             }
         }
-
+        public async Task<Response<IEnumerable<FileDto>>> GetCurrentCountNoSub(int count)
+        {
+            try
+            {
+                var list = await repos.GetAllAsync();
+                if (list == null)
+                    return new Response<IEnumerable<FileDto>>()
+                    {
+                        IsSuccess = true,
+                        Value = null
+                    };
+                else
+                    return new Response<IEnumerable<FileDto>>()
+                    {
+                        IsSuccess = true,
+                        Value = list.Take(count).Select(e => e.ToDto())
+                    };
+            }
+            catch (Exception ex)
+            {
+                return new Response<IEnumerable<FileDto>>()
+                {
+                    IsSuccess = false,
+                    ErrorInfo = ex.Message,
+                    ErrorMessage = "Ошибка получения"
+                };
+            }
+        }
         public async Task<Response> Update(FileDto FileDto)
         {
             try

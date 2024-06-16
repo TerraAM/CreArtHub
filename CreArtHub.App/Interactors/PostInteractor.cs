@@ -4,6 +4,7 @@ using CreArtHub.Domain.Entity;
 using CreArtHub.Shared.Data;
 using CreArtHub.Shared.Dto;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -159,7 +160,7 @@ namespace CreArtHub.App.Interactors
             }
         }
 
-        public async Task<Response<IEnumerable<PostDto>>> GetAllBySearch(string searchString)
+        public async Task<Response<IEnumerable<PostDto>>> GetAllBySearch(string searchAuthor, string searchTitle)
         {
             try
             {
@@ -171,11 +172,21 @@ namespace CreArtHub.App.Interactors
                         Value = null
                     };
                 else
+                {
+                    if (!String.IsNullOrEmpty(searchAuthor))
+                    {
+                        list = list.Where(p => p.Author.Name.ToLower().Contains(searchAuthor.ToLower()));
+                    }
+                    if (!String.IsNullOrEmpty(searchTitle))
+                    {
+                        list = list.Where(p => p.Title.ToLower().Contains(searchTitle.ToLower()));
+                    }
                     return new Response<IEnumerable<PostDto>>()
                     {
                         IsSuccess = true,
-                        Value = list.Where(x => x.Title.Contains(searchString)).Select(e => e.ToDto())
+                        Value = list.Select(e => e.ToDto())
                     };
+                }
             }
             catch (Exception ex)
             {
@@ -188,7 +199,7 @@ namespace CreArtHub.App.Interactors
             }
         }
 
-        public async Task<Response<IEnumerable<PostDto>>> GetAllBySearchNoSub(string searchString)
+        public async Task<Response<IEnumerable<PostDto>>> GetAllBySearchNoSub(string searchAuthor, string searchTitle)
         {
             try
             {
@@ -199,12 +210,22 @@ namespace CreArtHub.App.Interactors
                         IsSuccess = true,
                         Value = null
                     };
-                else
+                else 
+                {
+                    if (!String.IsNullOrEmpty(searchAuthor))
+                    {
+                        list = list.Where(p => !p.BySub && p.Author.Name.ToLower().Contains(searchAuthor.ToLower()));
+                    }
+                    if (!String.IsNullOrEmpty(searchTitle))
+                    {
+                        list = list.Where(p => !p.BySub && p.Title.ToLower().Contains(searchTitle.ToLower()));
+                    }
                     return new Response<IEnumerable<PostDto>>()
                     {
                         IsSuccess = true,
-                        Value = list.Where(x => !x.BySub && x.Title.Contains(searchString)).Select(e => e.ToDto())
+                        Value = list.Select(e => e.ToDto())
                     };
+                }
             }
             catch (Exception ex)
             {

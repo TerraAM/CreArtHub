@@ -4,6 +4,7 @@ using CreArtHub.Shared.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -30,7 +31,12 @@ namespace CreArtHub.Client.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View(postInteractor.GetCurrentCountNoSub(3).Result.Value);
+            var homeModel = new HomeModel()
+            {
+                PostDtos = postInteractor.GetCurrentCountNoSub(3).Result.Value.ToList(),
+                FileDtos = fileinteractor.GetCurrentCountNoSub(5).Result.Value.ToList()
+            };
+            return View(homeModel);
         }
 
         public ActionResult About()
@@ -152,10 +158,10 @@ namespace CreArtHub.Client.Controllers
 		// POST: Home/Contact/
 		public async Task<IActionResult> Contact([Bind("id,UserName, UserEmail, Title, Context, isReaded")] FeedBackDto feedBackDto)
 		{
-			if (User.Identity.IsAuthenticated)
+			if (ModelState.IsValid)
 			{
                 await feedBackInteractor.Create(feedBackDto);
-				return View();
+				return RedirectToAction(nameof(Index));
 			}
 			return View();
 		}
