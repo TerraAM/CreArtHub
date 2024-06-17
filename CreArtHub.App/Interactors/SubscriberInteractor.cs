@@ -130,7 +130,7 @@ namespace CreArtHub.App.Interactors
             }
         }
 
-        public async Task<Response<IEnumerable<SubscriberDto>>> GetMyAllByEmail(string Email)
+        public async Task<Response<IEnumerable<SubscriberDto>>> GetAllForSubByEmail(string UserEmail)
         {
             try
             {
@@ -145,7 +145,7 @@ namespace CreArtHub.App.Interactors
                     return new Response<IEnumerable<SubscriberDto>>()
                     {
                         IsSuccess = true,
-                        Value = list.Where(x=>x.Subscription.Author.Email == Email).Select(e => e.ToDto())
+                        Value = list.Where(x=>x.User.Email == UserEmail).Select(e => e.ToDto())
                     };
             }
             catch (Exception ex)

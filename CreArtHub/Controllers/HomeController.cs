@@ -69,21 +69,22 @@ namespace CreArtHub.Client.Controllers
         // POST: Home/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> createSub(int SubscriptionId, int UserId)
+        public async Task<ActionResult> createSub(int SubscriptionId,int profileUserId, string UserEmail)
         {
+            var UserId = userInteractor.GetByEmail(UserEmail).Result.Value.Id;
             try
             {
                 SubscriberDto sub = new SubscriberDto()
                 {
 					SubscriptionId = SubscriptionId,
-                    UserId = (int)UserId
+                    UserId = UserId
                 };
                 await subscriberInteractor.Create(sub);
-				return RedirectToAction(nameof(Profile), new { id = UserId });
+				return RedirectToAction(nameof(Profile), new { id = profileUserId });
 			}
             catch
             {
-                return RedirectToAction(nameof(Profile), new { id = UserId });
+                return RedirectToAction(nameof(Profile), new { id = profileUserId });
             }
 		}
 

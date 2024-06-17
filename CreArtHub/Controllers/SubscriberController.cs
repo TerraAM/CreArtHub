@@ -33,7 +33,7 @@ namespace CreArtHub.Client.Controllers
                 response = await interactor.GetAll();
             }
             else {
-                response = await interactor.GetMyAllByEmail(User.Identity.Name);
+                response = await interactor.GetAllForSubByEmail(User.Identity.Name);
             }
             return View(response.Value);
         }
@@ -171,7 +171,7 @@ namespace CreArtHub.Client.Controllers
 
         public async Task<IActionResult> My()
         {
-            var response = await interactor.GetMyAllByEmail(User.Identity.Name);
+            var response = await interactor.GetAllForSubByEmail(User.Identity.Name);
             return View(response.Value);
         }
     }

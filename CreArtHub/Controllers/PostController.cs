@@ -30,19 +30,22 @@ namespace CreArtHub.Client.Controllers
         private readonly UserInteractor userInteractor;
         private readonly CommentInteractor commentInteractor;
         private readonly FileInteractor fileInteractor;
+        private readonly SubscriberInteractor subscriberInteractor;
 
         public PostController(
             WebDBContext context, 
             PostInteractor interactor, 
             UserInteractor userInteractor, 
             CommentInteractor commentInteractor,
-            FileInteractor fileInteractor)
+            FileInteractor fileInteractor,
+            SubscriberInteractor subscriberInteractor)
         {
             _context = context;
             this.interactor = interactor;
             this.userInteractor = userInteractor;
             this.commentInteractor = commentInteractor;
             this.fileInteractor = fileInteractor;
+            this.subscriberInteractor = subscriberInteractor;
         }
 
         // GET: Post
@@ -51,28 +54,13 @@ namespace CreArtHub.Client.Controllers
             ViewData["CurrentAuthorFilter"] = author;
             ViewData["CurrentTitleFilter"] = title;
 
-            Response<IEnumerable<PostDto>> response;
-            if (User.IsInRole("admin"))
+            if (!String.IsNullOrEmpty(author) || !String.IsNullOrEmpty(title))
             {
-                if (!String.IsNullOrEmpty(author) || !String.IsNullOrEmpty(title))
-                {
-                    return View(interactor.GetAllBySearch(author, title).Result.Value);
-                }
-                else
-                {
-                    return View(interactor.GetAll().Result.Value);
-                }
-            } 
-            else 
+                return View(await Search(await GetPostBySub(), author, title));
+            }
+            else
             {
-                if (!String.IsNullOrEmpty(author) || !String.IsNullOrEmpty(title))
-                {
-                    return View(interactor.GetAllBySearchNoSub(author, title).Result.Value);
-                }
-                else
-                {
-                    return View(interactor.GetAllNoSub().Result.Value);
-                }
+                return View(await GetPostBySub());
             }
         }
 
@@ -338,7 +326,44 @@ namespace CreArtHub.Client.Controllers
 			return View(response.Value);
 		}
 
+        public async Task<List<PostDto>> GetPostBySub()
+        {
+            var allposts = interactor.GetAll();
+            var currentUserSubscriptions = subscriberInteractor.GetAllForSubByEmail(User.Identity.Name).Result.Value.Select(s => s.Subscription.AuthorId).ToList();
 
+            var filteredPosts = new List<PostDto>();
 
-	}
+            if (User.IsInRole("admin"))
+            {
+                filteredPosts = allposts.Result.Value.ToList();
+            }
+            else if (User.IsInRole("user"))
+            {
+                filteredPosts = allposts.Result.Value
+                    .Where(p => !p.BySub || currentUserSubscriptions.Contains(p.AuthorId))
+                    .ToList();
+            }
+            else
+            {
+                filteredPosts = allposts.Result.Value
+                    .Where(p => !p.BySub)
+                    .ToList();
+            }
+
+            return filteredPosts;
+        }
+
+        public async Task<List<PostDto>> Search(List<PostDto> postList, string searchAuthor, string searchTitle)
+        {
+            if (!String.IsNullOrEmpty(searchAuthor))
+            {
+                postList = postList.Where(p => !p.BySub && p.Author.Name.ToLower().Contains(searchAuthor.ToLower())).ToList();
+            }
+            if (!String.IsNullOrEmpty(searchTitle))
+            {
+                postList = postList.Where(p => !p.BySub && p.Title.ToLower().Contains(searchTitle.ToLower())).ToList();
+            }
+            return postList;
+        }
+    }
 }
