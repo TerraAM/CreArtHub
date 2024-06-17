@@ -17,7 +17,7 @@
             <thead>
                 <tr>
                     <th>
-                        @Html.DisplayNameFor(model => model.SubscribtionId)
+                        @Html.DisplayNameFor(model => model.SubscriptionId)
                     </th>
                     <th>
                         @Html.DisplayNameFor(model => model.User)
@@ -37,8 +37,7 @@
                         </td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.Id">Изменить</a> |
-                            <a asp-action="Details" asp-route-id="@item.Id">Подробнее</a> |
-                            <a asp-action="Delete" asp-route-id="@item.Id">Удалить</a>
+                            <a asp-action="Details" asp-route-id="@item.Id">Подробнее</a> 
                         </td>
                     </tr>
                 }

@@ -75,7 +75,7 @@ namespace CreArtHub.Client.Controllers
             {
                 _context.Add(subscriber);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(My));
             }
             ViewData["UserId"] = new SelectList(_context.Users, "Id", "Name", subscriber.UserId);
             return View(subscriber);

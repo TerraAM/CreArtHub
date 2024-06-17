@@ -19,7 +19,7 @@ namespace CreArtHub.App.Mappers
 
             SubscriberDto SubscriberDto = new SubscriberDto()
             {
-                SubscribtionId = Subscriber.SubscribtionId,
+				SubscriptionId = Subscriber.SubscriptionId,
                 UserId = Subscriber.UserId,
                 Subscription = Subscriber.Subscription.ToDto(),
                 User = Subscriber.User.ToDto()
@@ -36,7 +36,7 @@ namespace CreArtHub.App.Mappers
 
             Subscriber Subscriber = new Subscriber()
             {
-                SubscribtionId = SubscriberDto.SubscribtionId,
+				SubscriptionId = SubscriberDto.SubscriptionId,
                 UserId = SubscriberDto.UserId,
                 Subscription = SubscriberDto.Subscription.ToEntity(),
                 User = SubscriberDto.User.ToEntity()

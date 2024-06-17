@@ -11,7 +11,7 @@ namespace CreArtHub.Domain.Entity
     {
 		public int Id { get; set; }
 		[DisplayName("Подписка")]
-        public int SubscribtionId { get; set; }
+        public int SubscriptionId { get; set; }
         [DisplayName("Пользователь")]
         public int UserId { get; set; }
         [DisplayName("Подписка")]

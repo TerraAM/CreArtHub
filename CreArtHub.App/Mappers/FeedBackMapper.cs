@@ -21,7 +21,7 @@ namespace CreArtHub.App.Mappers
             {
                 Id = FeedBack.Id,
                 UserName = FeedBack.UserName,
-                UserEmail = FeedBack.UserName,
+                UserEmail = FeedBack.UserEmail,
                 Title = FeedBack.Title,
                 Context = FeedBack.Context,
                 isReaded = FeedBack.isReaded,
@@ -40,7 +40,7 @@ namespace CreArtHub.App.Mappers
             {
                 Id = FeedBackDto.Id,
                 UserName = FeedBackDto.UserName,
-                UserEmail = FeedBackDto.UserName,
+                UserEmail = FeedBackDto.UserEmail,
                 Title = FeedBackDto.Title,
                 Context = FeedBackDto.Context,
                 isReaded = FeedBackDto.isReaded,

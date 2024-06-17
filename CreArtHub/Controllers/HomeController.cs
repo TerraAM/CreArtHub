@@ -1,9 +1,12 @@
 ﻿using CreArtHub.App.Interactors;
+using CreArtHub.Domain.Entity;
 using CreArtHub.Shared.Dto;
 using CreArtHub.Shared.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,14 +21,21 @@ namespace CreArtHub.Client.Controllers
         private readonly FeedBackInteractor feedBackInteractor;
 		private readonly FileInteractor fileinteractor;
         private readonly SubscriptionInteractor subscriptionInteractor;
+        private readonly SubscriberInteractor subscriberInteractor;
 
-		public HomeController(PostInteractor postInteractor, UserInteractor userInteractor, FeedBackInteractor feedBackInteractor, FileInteractor fileinteractor, SubscriptionInteractor subscriptionInteractor)
+		public HomeController(PostInteractor postInteractor, 
+            UserInteractor userInteractor, 
+            FeedBackInteractor feedBackInteractor, 
+            FileInteractor fileinteractor, 
+            SubscriptionInteractor subscriptionInteractor,
+			SubscriberInteractor subscriberInteractor)
         {
             this.postInteractor = postInteractor;
             this.userInteractor = userInteractor;
 			this.feedBackInteractor = feedBackInteractor;
             this.fileinteractor = fileinteractor;
             this.subscriptionInteractor = subscriptionInteractor;
+            this.subscriberInteractor = subscriberInteractor;
 		}
 
         // GET: Home
@@ -59,17 +69,23 @@ namespace CreArtHub.Client.Controllers
         // POST: Home/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> createSub(int SubscriptionId, int UserId)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
-            }
+                SubscriberDto sub = new SubscriberDto()
+                {
+					SubscriptionId = SubscriptionId,
+                    UserId = (int)UserId
+                };
+                await subscriberInteractor.Create(sub);
+				return RedirectToAction(nameof(Profile), new { id = UserId });
+			}
             catch
             {
-                return View();
+                return RedirectToAction(nameof(Profile), new { id = UserId });
             }
-        }
+		}
 
         // GET: Home/Edit/5
         public ActionResult Edit(int id)
@@ -117,25 +133,25 @@ namespace CreArtHub.Client.Controllers
 		public async Task<IActionResult> Profile(int? id)
 		{
             Response<UserDto> userResponse;
-            //Response<IEnumerable<SubscriptionDto>> subscriptionResponse;
+            Response<IEnumerable<SubscriptionDto>> subscriptionResponse;
             if (id == null)
             {
                 userResponse = await userInteractor.GetByEmail(User.Identity.Name);
-                //subscriptionResponse = await subscriptionInteractor.GetAllByUserEmail(User.Identity.Name);
+                subscriptionResponse = await subscriptionInteractor.GetAllByUserEmail(User.Identity.Name);
             } else {
                 userResponse = await userInteractor.GetById((int)id);
-                //subscriptionResponse = await subscriptionInteractor.GetAllByUserId((int)id);
+                subscriptionResponse = await subscriptionInteractor.GetAllByUserId((int)id);
             }
             ProfileModel profile = new ProfileModel()
             {
                 User = userResponse.Value,
             };
-            //if (subscriptionResponse.Value.Any())
-            //{
-            //    profile.Subscriptions = subscriptionResponse.Value.ToList();
-            //}
+            if (subscriptionResponse.Value.Any())
+            {
+                profile.Subscriptions = subscriptionResponse.Value.ToList();
+            }
 
-			return View(profile);
+            return View(profile);
 		}
 
 		// GET: Home/Contact/

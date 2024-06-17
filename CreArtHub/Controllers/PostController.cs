@@ -131,7 +131,7 @@ namespace CreArtHub.Client.Controllers
                     post.AuthorId = user.Value.Id;
                     post.CreatedAt = DateTime.Now;
                 }
-                if (string.IsNullOrEmpty(post.Tags))
+                if (!string.IsNullOrEmpty(post.Tags))
                 { 
                     string output = new string(post.Tags
                             .Where((c, i) => c != ' ' || (i > 0 && post.Tags[i - 1] == '#' && i < post.Tags.Length - 1 && post.Tags[i + 1] == '#'))
@@ -206,7 +206,7 @@ namespace CreArtHub.Client.Controllers
                 try
                 {
                     
-                    if (string.IsNullOrEmpty(post.Tags))
+                    if (!string.IsNullOrEmpty(post.Tags))
                     {
                         string output = new string(post.Tags
                                 .Where((c, i) => c != ' ' || (i > 0 && post.Tags[i - 1] == '#' && i < post.Tags.Length - 1 && post.Tags[i + 1] == '#'))
@@ -337,5 +337,8 @@ namespace CreArtHub.Client.Controllers
 			var response = await interactor.GetAllByAuthorEmail(User.Identity.Name);
 			return View(response.Value);
 		}
+
+
+
 	}
 }

@@ -88,15 +88,18 @@
                     <h5 class="card-title">@Model.Post.Category.Name</h5>
                     <p class="card-text">Тэги... какие они... прекрасные...</p>
                     <!-- Tag display -->
-                    <div class="tags">
-                        @{
-                            string[] tagList = Model.Post.Tags.Split("#").ToArray();
-                            foreach (string tag in tagList)
-                            {
-                                <span class="badge badge-mute border tag">@tag</span>
+                    @if (!string.IsNullOrEmpty(Model.Post.Tags))
+                    {
+                        <div class="tags">
+                            @{
+                                string[] tagList = Model.Post.Tags.Split("#").ToArray();
+                                foreach (string tag in tagList)
+                                {
+                                    <span class="badge badge-mute border tag">@tag</span>
+                                }
                             }
-                        }
-                    </div>
+                        </div>
+                    }
                 </div>
             </div>
 

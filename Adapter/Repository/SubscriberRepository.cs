@@ -27,22 +27,10 @@ namespace CreArtHub.Adapter.Repository
         public async Task<Subscriber> GetByIdAsync(int id)
         {
 			var ent = await context.Subscribers
+				.Include(x => x.Subscription)
+				.Include(u => u.User)
 				.FirstOrDefaultAsync(x => x.Id == id);
 			return ent ?? throw new NullReferenceException();
-		}
-        public async Task<IEnumerable<Subscriber>> GetBySubscribtionIdAsync(int id)
-        {
-			return context.Subscribers
-                .Include(x => x.Subscription)
-                .Include(u => u.User)
-                .Where(x => x.SubscribtionId == id);
-		}
-        public async Task<IEnumerable<Subscriber>> GetByUserIdAsync(int id)
-        {
-			return context.Subscribers
-                .Include(x => x.Subscription)
-                .Include(u => u.User)
-                .Where(x=>x.UserId == id);
 		}
 
         public async Task<IEnumerable<Subscriber>> GetAllAsync()

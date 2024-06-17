@@ -27,14 +27,14 @@
 						<button type="button" data-filter="all">Все</button>
 						@{
 							var Categories = Model
-								.Select(x => x.Post.Category.Name) 
-								.ToList();
-							HashSet<string> uniqueContinents = new HashSet<string>(Categories);
-							foreach (var category in uniqueContinents)
+							.Select(x => x.Post.Category.Name)
+							.Distinct()
+							.ToList();
+							foreach (var category in Categories)
 							{
 								if (category != null)
 								{
-									<button type="button" data-filter=".@category">@category</button>
+									<button type="button" data-filter=".@category.Replace(' ','_')">@category</button>
 								}
 							}
 						}

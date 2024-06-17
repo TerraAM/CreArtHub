@@ -119,7 +119,13 @@
                                 <span>Автор&nbsp;</span> <a asp-controller="Home" asp-action="Profile" asp-route-Id="@el.AuthorId" class="">@el.Author.Name</a>
                             </div>
                             <div class="post-content">
-                                <p>@el.Content.Substring(0,50)...</p>
+                                @if (@el.Content.Length > 50)
+								{
+									<p>@el.Content.Substring(0,50)...</p>
+
+								}else{
+									<p>@el.Content</p>
+								}
                             </div>
                             <a class="btn btn-main" asp-controller="Post" asp-action="Details" asp-route-Id="@el.Id">Открыть</a>
                         </div>

@@ -151,13 +151,13 @@ Start About Section
 							@{
 								var Categories = Model.FileDtos
 								.Select(x => x.Post.Category.Name)
+								.Distinct()
 								.ToList();
-								HashSet<string> uniqueContinents = new HashSet<string>(Categories);
-								foreach (var category in uniqueContinents)
+								foreach (var category in Categories)
 								{
 									if (category != null)
 									{
-										<button type="button" data-filter=".@category">@category</button>
+										<button type="button" data-filter=".@category.Replace(' ','_')">@category</button>
 									}
 								}
 							}
@@ -167,7 +167,7 @@ Start About Section
 				<div class="row portfolio-items-wrapper">
 					@foreach (var el in Model.FileDtos)
 					{
-						<div class="col-6 col-md-4 padding-0 mix @el.Post.Category.Name">
+						<div class="col-6 col-md-4 padding-0 mix @el.Post.Category.Name.Replace(' ','_')">
 							<div class="portfolio-block">
 								@if (!string.IsNullOrEmpty(el.Post.ImgPath))
 								{
@@ -246,7 +246,15 @@ Start Blog Section
 								<span>Автор&nbsp;</span> <a href="" class="">@el.Author.Name</a>
 							</div>
 							<div class="post-content">
-								<p>@el.Content.Substring(0,50)...</p>
+								@if (@el.Content.Length > 50)
+								{
+									<p>@el.Content.Substring(0,50)...</p>
+
+								}
+								else
+								{
+									<p>@el.Content</p>
+								}
 							</div>
 							<a class="btn btn-main" asp-controller="Post" asp-action="Details" asp-route-Id="@el.Id">Открыть</a>
 						</div>
